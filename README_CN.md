@@ -95,8 +95,10 @@ x402-exec/
 │   ├── script/                     # 部署脚本
 │   ├── test/                       # 合约测试
 │   └── docs/                       # 合约文档
+├── facilitator/                    # 生产级 Facilitator 服务
+├── apps/
+│   └── xdefi-app/                  # 跨链 DeFi 应用（交换和桥接）
 ├── examples/
-│   ├── facilitator/                # 支持 SettlementRouter 的 Facilitator
 │   └── showcase/                   # 全栈演示应用
 └── docs/                           # 项目文档
 ```
@@ -163,6 +165,18 @@ cd contracts
 ```
 
 ## 💡 使用示例
+
+### 应用程序
+
+#### xdefi.app - 跨链 DeFi 应用
+
+生产级 DeFi 应用，提供代币交换和跨链桥接功能：
+- **位置**：[`apps/xdefi-app/`](./apps/xdefi-app/)
+- **功能**：代币交换、跨链桥接、钱包集成（WalletConnect）
+- **技术栈**：React + Vite + TypeScript + shadcn/ui
+- **用途**：在 DeFi 应用中集成 x402x 协议的参考实现
+
+查看 [xdefi.app README](./apps/xdefi-app/README.md) 了解设置和开发指南。
 
 ### Facilitator 集成
 
