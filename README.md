@@ -96,6 +96,8 @@ x402-exec/
 │   ├── test/                       # Contract tests
 │   └── docs/                       # Contract documentation
 ├── facilitator/                    # Production-ready facilitator service
+├── apps/
+│   └── xdefi-app/                  # Cross-chain DeFi application (swap & bridge)
 ├── examples/
 │   └── showcase/                   # Full-stack demo application
 └── docs/                           # Project documentation
@@ -163,6 +165,18 @@ cd contracts
 ```
 
 ## 💡 Usage Examples
+
+### Applications
+
+#### xdefi.app - Cross-chain DeFi Application
+
+A production-ready DeFi application providing token swap and bridge functionality:
+- **Location**: [`apps/xdefi-app/`](./apps/xdefi-app/)
+- **Features**: Token swaps, cross-chain bridges, wallet integration (WalletConnect)
+- **Tech Stack**: React + Vite + TypeScript + shadcn/ui
+- **Purpose**: Reference implementation for integrating x402x protocol in DeFi apps
+
+See the [xdefi.app README](./apps/xdefi-app/README.md) for setup and development guide.
 
 ### Facilitator Integration
 
